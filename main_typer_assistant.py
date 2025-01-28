@@ -46,7 +46,7 @@ def awaken(
         post_speech_silence_duration=1.5,  # how long to wait after speech ends before processing
         # compute_type="int8",
         compute_type="float32",
-        model="tiny.en",  # VERY fast (.5s), but not accurate
+        model="small.en",  # model="tiny.en" VERY fast (.5s), but not accurate
         # model="small.en",  # decent speed (1.5s), improved accuracy
         # Beam size controls how many alternative transcription paths are explored
         # Higher values = more accurate but slower, lower values = faster but less accurate
